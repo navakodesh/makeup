@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Dcumentaion</title>
+</head>
+
+<body>
+ 
+  <div class="container">
+    <h1>Makeup API Dcumentaion</h1>
+    <hr>
+    <h2>Users Routes <i class="fa fa-user" aria-hidden="true"></i></h2>
+    <table class="table table-striped">
+      <tr>
+        <th>Method</th>
+        <th>URL</th>
+        <th>Body</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td><a href="http://localhost:3000/users">/users</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/users</td>
+        <td>
+          <ul>
+            <li>name <strong>required</strong></li>
+            <li>email <strong>required</strong></li>
+            <li>password <strong>required</strong></li>
+          </ul>
+     </td>
+        <td>Add a new user to the data base</td>
+      </tr>
+      <tr>
+        <td>POST (login)</td>
+        <td>/users/login</td>
+        <td>       
+             <ul>
+          <li>email <strong>required</strong></li>
+          <li>password <strong>required</strong></li>
+        </ul></td>
+        <td>User login, if the email and password are correct the server will respond with a token</td>
+      </tr>
+      <td>GET (myInfo)</td>
+      <td>/users/myInfo</td>
+      <td></td>
+      <td>Information -(only for register user with token)</td>
+    </tr>
+    </table>
+
+    <h2 class="py-4">Makeup Routes <i class="fa fa-female" aria-hidden="true"></i></h2>
+ 
+    <table class="table table-striped">
+      <tr>
+        <th>Method</th>
+        <th>URL</th>
+        <th>Body</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td><a href="http://localhost:3000/makeup">/makeup</a></td>
+        <td></td>
+        <td> Get a list of all the makeup products, will present 10 results per page</td>
+      </tr>
+      <td>GET</td>
+      <td><a href="http://localhost:3000/makeup/?page=2">/makeup/?page=number</a></td>
+      <td></td>
+      <td> Get a list of all makeup products, will show the second page</td>
+      </tr>
+      <td>GET</td>
+      <td><a href="http://localhost:3000/makeup/?perPage=3">/makeup/?perPage=X</a></td>
+      <td></td>
+      <td>X products per 1 page
+        For example 3 products on a page</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td><a href="http://localhost:3000/makeup/search?s=lipstick">/makeup/search?s=name</a></td>
+        <td></td>
+        <td>Makeup search by name
+          For example: lipstick</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td><a href="http://localhost:3000/makeup/category?s=Poor makeup">/makeup/category?s=category</a></td>
+        <td></td>
+        <td>Makeup search by category
+          For example: Poor makeup</td>
+      </tr>
+      <td>GET</td>
+      <td><a href="http://localhost:3000/makeup/byPrice?min&max">/makeup/byPrice?min&max</a></td>
+      <td></td>
+      <td>Get a list of all makeup products priced between 10 and 40</td>
+      </tr>
+      <td>GET</td>
+      <td><a href="http://localhost:3000/makeup/byPrice?min=40&max=100">/makeup/byPrice?min=X &max=Y</a></td>
+      <td></td>
+      <td>You can determine the price of the products by entering the desired price in min & max
+        For example:
+        Price between 40 and 100</td>
+      </tr>
+      </tr>
+
+      <td>POST</td>
+      <td> /makeup </td>
+      <td>
+        <ul>
+          <li>name <strong>required</strong></li>
+          <li>info <strong>required</strong></li>
+          <li>category <strong>required</strong></li>
+          <li>price <strong>required</strong></li>
+          <li>image <strong>no required</strong></li>
+
+        </ul>
+       </td>
+      <td>Add a new makeup to the data base, You need a token for this query</td>
+      </tr>
+      <td>PUT</td>
+      <td> /makeup/1 </td>
+      <td>        <ul>
+        <li>name <strong>required</strong></li>
+        <li>info <strong>required</strong></li>
+        <li>category <strong>required</strong></li>
+        <li>price <strong>required</strong></li>
+        <li>image <strong>no required</strong></li>
+
+      </ul></td>
+      <td>Update a makeup in the data base, You need a token for this query</td>
+      </tr>
+      <td>DELETE</td>
+      <td> /makeup/1 </td>
+      <td></td>
+      <td> Delete a makeup from the data base, You need a token for this query</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>

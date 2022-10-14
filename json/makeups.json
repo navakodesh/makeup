@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "6328aaf961487be529f48ef2"
+  },
+  "name": "makeup",
+  "info": "Make-up with a fine texture for full coverage",
+  "category": "Facial makeup",
+  "price": 120,
+  "img": "https://images.pexels.com/photos/2661256/pexels-photo-2661256.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663609593282"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328abe261487be529f48ef6"
+  },
+  "name": "Bronzer",
+  "info": "Bronzer for a tanned look in different shades",
+  "category": "Facial makeup",
+  "price": 90,
+  "img": "https://images.pexels.com/photos/2732197/pexels-photo-2732197.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663609593282"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328ac96b1b6d5928ce5eec9"
+  },
+  "name": "lip liner",
+  "info": "Highlights and upgrades the ruby",
+  "category": "lips",
+  "price": 30,
+  "img": "https://images.pexels.com/photos/2535928/pexels-photo-2535928.jpeg?auto=compress&cs=tinysrgb&w=600  ",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328ad4bb1b6d5928ce5eecc"
+  },
+  "name": "Blush Brush",
+  "info": "Blush brush for easy and even application",
+  "category": "Facial makeup",
+  "price": 30,
+  "img": "https://images.pexels.com/photos/4960067/pexels-photo-4960067.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328add3b1b6d5928ce5eece"
+  },
+  "name": "Concealer",
+  "info": "Concealer to blur redness and pigmentation",
+  "category": "Facial makeup",
+  "price": 100,
+  "img": "https://images.pexels.com/photos/5476580/pexels-photo-5476580.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328ae48b1b6d5928ce5eed0"
+  },
+  "name": "Poor pencil",
+  "info": "A poor pencil for sharpening the poor",
+  "category": "Poor makeup",
+  "price": 100,
+  "img": "https://images.pexels.com/photos/7256089/pexels-photo-7256089.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328aecdb1b6d5928ce5eed2"
+  },
+  "name": "Eye shadow palette",
+  "info": "Eyeshadow palette in a variety of colors",
+  "category": "Poor makeup",
+  "price": 70,
+  "img": "https://images.pexels.com/photos/13534390/pexels-photo-13534390.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328af33b1b6d5928ce5eed4"
+  },
+  "name": "mascara",
+  "info": "Mascara for highlighting eyelashes",
+  "category": "Poor makeup",
+  "price": 65,
+  "img": "https://images.pexels.com/photos/3373731/pexels-photo-3373731.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328af96b1b6d5928ce5eed6"
+  },
+  "name": "Eyeliner",
+  "info": "Eyeliner for highlighting the poor",
+  "category": "Poor makeup",
+  "price": 85,
+  "img": "https://images.pexels.com/photos/8469465/pexels-photo-8469465.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328aff4b1b6d5928ce5eed8"
+  },
+  "name": "powder",
+  "info": "Powder for full coverage and creating a natural look",
+  "category": "Facial makeup",
+  "price": 105,
+  "img": "https://images.pexels.com/photos/2688991/pexels-photo-2688991.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328b070b1b6d5928ce5eeda"
+  },
+  "name": "lipstick",
+  "info": "Lipstick case in dark shades",
+  "category": "lips makeup",
+  "price": 125,
+  "img": "https://images.pexels.com/photos/1625037/pexels-photo-1625037.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328b0aeb1b6d5928ce5eedc"
+  },
+  "name": "lipstick",
+  "info": "A single lipstick in a subtle shade",
+  "category": "lips makeup",
+  "price": 25,
+  "img": "https://images.pexels.com/photos/3373740/pexels-photo-3373740.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328b0fcb1b6d5928ce5eede"
+  },
+  "name": "lipstick",
+  "info": "A single pink lipstick",
+  "category": "lips makeup",
+  "price": 45,
+  "img": "https://images.pexels.com/photos/2587370/pexels-photo-2587370.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328b19fb1b6d5928ce5eee0"
+  },
+  "name": "lipstick",
+  "info": "A single purple lipstick",
+  "category": "lips makeup",
+  "price": 30,
+  "img": "https://images.pexels.com/photos/3060257/pexels-photo-3060257.jpeg?auto=compress&cs=tinysrgb&w=400",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6328b24fb1b6d5928ce5eee2"
+  },
+  "name": "blush",
+  "info": "A blush that gives a subtle touch of color to the face",
+  "category": "Facial makeup",
+  "price": 50,
+  "img": "https://images.pexels.com/photos/3190/makeup-beauty-lipstick-make-up.jpg?auto=compress&cs=tinysrgb&w=600 ",
+  "date_created": {
+    "$date": {
+      "$numberLong": "1663610006072"
+    }
+  },
+  "user_id": "6328a5cf7cf1077bc3ef6d5d",
+  "__v": 0
+}]
