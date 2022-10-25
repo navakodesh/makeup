@@ -18,48 +18,7 @@
   <div class="container">
     <h1>Makeup API Dcumentaion</h1>
     <hr>
-    <h2>Users Routes <i class="fa fa-user" aria-hidden="true"></i></h2>
-    <table class="table table-striped">
-      <tr>
-        <th>Method</th>
-        <th>URL</th>
-        <th>Body</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>GET</td>
-        <td><a href="http://localhost:3000/users">/users</a></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>POST</td>
-        <td>/users</td>
-        <td>
-          <ul>
-            <li>name <strong>required</strong></li>
-            <li>email <strong>required</strong></li>
-            <li>password <strong>required</strong></li>
-          </ul>
-     </td>
-        <td>Add a new user to the data base</td>
-      </tr>
-      <tr>
-        <td>POST (login)</td>
-        <td>/users/login</td>
-        <td>       
-             <ul>
-          <li>email <strong>required</strong></li>
-          <li>password <strong>required</strong></li>
-        </ul></td>
-        <td>User login, if the email and password are correct the server will respond with a token</td>
-      </tr>
-      <td>GET (myInfo)</td>
-      <td>/users/myInfo</td>
-      <td></td>
-      <td>Information -(only for register user with token)</td>
-    </tr>
-    </table>
+ 
 
     <h2 class="py-4">Makeup Routes <i class="fa fa-female" aria-hidden="true"></i></h2>
  
@@ -147,8 +106,51 @@
       <td> Delete a makeup from the data base, You need a token for this query</td>
       </tr>
     </table>
-  </div>
+ 
 
+  <h2 class="py-4">Users Routes <i class="fa fa-user" aria-hidden="true"></i></h2>
+  <table class="table table-striped">
+    <tr>
+      <th>Method</th>
+      <th>URL</th>
+      <th>Body</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td><a href="http://localhost:3000/users">/users</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>/users</td>
+      <td>
+        <ul>
+          <li>name <strong>required</strong></li>
+          <li>email <strong>required</strong></li>
+          <li>password <strong>required</strong></li>
+        </ul>
+   </td>
+      <td>Add a new user to the data base</td>
+    </tr>
+    <tr>
+      <td>POST (login)</td>
+      <td>/users/login</td>
+      <td>       
+           <ul>
+        <li>email <strong>required</strong></li>
+        <li>password <strong>required</strong></li>
+      </ul></td>
+      <td>User login, if the email and password are correct the server will respond with a token</td>
+    </tr>
+    <td>GET (myInfo)</td>
+    <td>/users/myInfo</td>
+    <td></td>
+    <td>Information -(only for register user with token)</td>
+  </tr>
+  </table>
+</div>
 </body>
 
 </html>
