@@ -20,5 +20,5 @@ const server = http.createServer(app);
 
 console.log("env",process.env.TEST)
 
-let port = process.env.PORT || 3000
+let port = process.env.PORT ||eager-coat-ox.cyclic.app
 server.listen(port);
